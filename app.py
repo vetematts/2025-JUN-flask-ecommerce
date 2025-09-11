@@ -20,6 +20,7 @@ class Product(db.Model):
     stock = db.Column(db.Integer)
 
 # Create commands to manipulate the DB, so it's easier to do some db stuffs
+#test?
 
 # To create table(s)
 @app.cli.command('create')
